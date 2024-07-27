@@ -32,7 +32,8 @@ public class CinemaController : ControllerBase
 	[HttpGet]
 	public IEnumerable<ReadCinemaDto> RecuperaCinemas()
 	{
-		return _mapper.Map<List<ReadCinemaDto>>(_context.Cinemas.ToList());
+		var listaDeCinema = _mapper.Map<List<ReadCinemaDto>>(_context.Cinemas.ToList());
+		return listaDeCinema;
 	}
 
 	[HttpGet("{id}")]
