@@ -64,7 +64,7 @@ public class EnderecoController: ControllerBase
 		return NoContent();  
 	}
 
-	[HttpDelete]
+	[HttpDelete("{id}")]
 	public IActionResult DeleteEndereco(int id)
 	{
 		Endereco endereco = _context.Enderecos.FirstOrDefault(endereco => endereco.Id == id);
