@@ -7,7 +7,6 @@ Para fins de portifólio backend.
 - [Visão Geral](#visão-geral)
 - [Funcionalidades](#Funcionalidades)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Instalação](#instalação)
 
 ## Visão Geral
 
